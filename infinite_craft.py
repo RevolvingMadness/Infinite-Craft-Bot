@@ -49,8 +49,18 @@ def craft(first: str, second: str) -> Result:
         print("[red][ERROR] You are sending too many requests to the neal.fun servers.")
         return None
 
+    if response.status_code == 403:
+        print(
+            "[red][ERROR] Got error code 403. This could be because you are using a VPN."
+        )
+        return None
+
     if response.status_code != 200:
         print(f"[red][ERROR] Got error code {response.status_code}.")
+
+        with open("error.txt", "w") as f:
+            f.write(response.text)
+
         return None
 
     combination = [first, second]

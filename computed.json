@@ -200,7 +200,44 @@
         ["Fish Soup", "Lake"],
         ["Dinner", "Lake"],
         ["Fishing Pole", "Ocean"],
-        ["Fish Soup", "Ocean"]
+        ["Fish Soup", "Ocean"],
+        ["Fishing Pole", "Sea"],
+        ["Fish Soup", "Sea"],
+        ["Dinner", "Sea"],
+        ["Fishbowl", "Sick"],
+        ["Fishbowl", "Fossil"],
+        ["Fishbowl", "Fishing Pole"],
+        ["Fish Soup", "Fishbowl"],
+        ["Fishbowl", "Soggy"],
+        ["Fishbowl", "Medicine"],
+        ["Fishbowl", "Sea Sick"],
+        ["Fishbowl", "Seafood"],
+        ["Fishbowl", "Seasick"],
+        ["Fishing", "Shore"],
+        ["Fishing", "Skeeter"],
+        ["Fishing", "Fossil"],
+        ["Fishing", "Fishing Pole"],
+        ["Fishing", "Sinking"],
+        ["Dinner", "Fishing"],
+        ["Goldfish", "Shark"],
+        ["Mermaid", "Pond"],
+        ["Mermaid", "Tadpole"],
+        ["Fishing Pole", "Mermaid"],
+        ["Fish Soup", "Mermaid"],
+        ["Dinner", "Mermaid"],
+        ["Mermaid", "Oil"],
+        ["Piranha", "Wet"],
+        ["Beach", "Piranha"],
+        ["Ahab", "Piranha"],
+        ["Fishing Rod", "Piranha"],
+        ["Nemo", "Piranha"],
+        ["Piranha", "Sand"],
+        ["Piranha", "Pisces"],
+        ["Dory", "Piranha"],
+        ["Piranha", "Slug"],
+        ["Piranha", "Shore"],
+        ["Fishing Pole", "Piranha"],
+        ["Dinner", "Piranha"]
       ],
       "is_new": false
     },
@@ -216,7 +253,8 @@
       "combinations": [
         ["Fish", "Water"],
         ["Goldfish", "Water"],
-        ["Fish", "Goldfish"]
+        ["Fish", "Goldfish"],
+        ["Fishing", "Goldfish"]
       ],
       "is_new": false
     },
@@ -332,7 +370,25 @@
         ["Carcharodon", "Fish"],
         ["Fish", "Survivor"],
         ["Fish", "Shark Fin Soup"],
-        ["Fish", "Moshark"]
+        ["Fish", "Moshark"],
+        ["Carcharodon", "Sea"],
+        ["Sea", "Shark Fin Soup"],
+        ["Moshark", "Sea"],
+        ["Fishbowl", "Shark Fin Soup"],
+        ["Carcharodon", "Fishing"],
+        ["Fishing", "Shark Fin Soup"],
+        ["Shark", "Sick"],
+        ["Shark", "Shark Fin Soup"],
+        ["Moshark", "Shark"],
+        ["Shark", "Squark"],
+        ["Shark", "Shellfish"],
+        ["Piranha", "Surfer"],
+        ["Piranha", "Surfboard"],
+        ["Piranha", "Swark"],
+        ["Piranha", "Tidal Wave"],
+        ["Piranha", "Surfing"],
+        ["Goldfish", "Piranha"],
+        ["Moshark", "Piranha"]
       ],
       "is_new": false
     },
@@ -450,7 +506,19 @@
         ["Ocean", "Swanmaid"],
         ["Fish", "Pearl"],
         ["Fish", "Swanmaid"],
-        ["Goldfish", "Sea"]
+        ["Goldfish", "Sea"],
+        ["Pearl", "Sea"],
+        ["Medicine", "Sea"],
+        ["Conch", "Shark"],
+        ["Shark", "Swanmaid"],
+        ["Mermaid", "Vampire Fish"],
+        ["Fishing Nessie", "Mermaid"],
+        ["Mermaid", "Swan Shark"],
+        ["Crocodile", "Mermaid"],
+        ["Mermaid", "Shark Fin Soup"],
+        ["Mermaid", "Moshark"],
+        ["Mermaid", "Vampire Shark"],
+        ["Piranha", "Siren"]
       ],
       "is_new": false
     },
@@ -510,7 +578,20 @@
         ["Piranha 3d", "Water"],
         ["Lake", "Piranha 3d"],
         ["Ocean", "Piranha 3d"],
-        ["Fish", "Piranha 3d"]
+        ["Fish", "Piranha 3d"],
+        ["Piranha 3d", "Sea"],
+        ["Fishbowl", "Piranha 3d"],
+        ["Fishing", "Piranha 3d"],
+        ["Piranha 3d", "Shark"],
+        ["Blood", "Piranha"],
+        ["Piranha", "Sashimi"],
+        ["Baby", "Piranha"],
+        ["Love Bite", "Piranha"],
+        ["Little Mermaid", "Piranha"],
+        ["Piranha", "Swale"],
+        ["Piranha", "Pond"],
+        ["Fishing Nessie", "Piranha"],
+        ["Piranha", "Shark Fin Soup"]
       ],
       "is_new": false
     },
@@ -557,7 +638,8 @@
         ["Jonah And The Shark", "Lake"],
         ["Nessie Roll", "Shark"],
         ["Mermaid", "Nessie Roll"],
-        ["Lake", "Survivor"]
+        ["Lake", "Survivor"],
+        ["Emperor", "Lake"]
       ],
       "is_new": false
     },
@@ -633,7 +715,17 @@
         ["Fishbowl", "Sand"],
         ["Fishbowl", "Pisces"],
         ["Dory", "Fishbowl"],
-        ["Fishbowl", "Trident"]
+        ["Fishbowl", "Trident"],
+        ["Fishbowl", "Shore"],
+        ["Fishbowl", "Skeeter"],
+        ["Fishbowl", "Goldfish"],
+        ["Alligator", "Fishbowl"],
+        ["Carcharodon", "Fishbowl"],
+        ["Crocodile", "Fishbowl"],
+        ["Fishbowl", "Moshark"],
+        ["Fishbowl", "Squark"],
+        ["Fishbowl", "Sponge"],
+        ["Fishbowl", "Shellfish"]
       ],
       "is_new": false
     },
@@ -671,7 +763,9 @@
         ["Shark", "Surfer"],
         ["Shark", "Swanado"],
         ["Shark", "Whale Sharknado"],
-        ["Shark", "Sharknado 5: Global Swarming"]
+        ["Shark", "Sharknado 5: Global Swarming"],
+        ["Shark", "Survivor"],
+        ["Piranha", "Whale Sharknado"]
       ],
       "is_new": false
     },
@@ -712,7 +806,8 @@
         ["Mermaid", "Turtle"],
         ["Mermaid", "Pisces"],
         ["Dory", "Mermaid"],
-        ["Clownfish", "Mermaid"]
+        ["Clownfish", "Mermaid"],
+        ["Goldfish", "Mermaid"]
       ],
       "is_new": false
     },
@@ -746,7 +841,17 @@
         ["Fishing Rod", "Shark"],
         ["Fish", "Sick"],
         ["Fish", "Fishing Pole"],
-        ["Fish", "Fish Soup"]
+        ["Fish", "Fish Soup"],
+        ["Fishing", "Sick"],
+        ["Fish Soup", "Fishing"],
+        ["Fishing", "Soggy"],
+        ["Crocodile", "Fishing"],
+        ["Fishing", "Moshark"],
+        ["Fishing", "Sea Sick"],
+        ["Fishing", "Tuxedo"],
+        ["Fishing", "Seasick"],
+        ["Emperor", "Fishing"],
+        ["Fishing Pole", "Shark"]
       ],
       "is_new": false
     },
@@ -795,7 +900,8 @@
         ["Fishing", "Humpback"],
         ["Shark", "Swale"],
         ["Humpback", "Shark"],
-        ["Goldfish", "Ocean"]
+        ["Goldfish", "Ocean"],
+        ["Humpback", "Piranha"]
       ],
       "is_new": false
     },
@@ -846,7 +952,11 @@
         ["Fishing Nessie", "Water"],
         ["Fishing Nessie", "Lake"],
         ["Fishing Nessie", "Ocean"],
-        ["Fish", "Fishing Nessie"]
+        ["Fish", "Fishing Nessie"],
+        ["Fishing Nessie", "Sea"],
+        ["Fishbowl", "Fishing Nessie"],
+        ["Fishing", "Fishing Nessie"],
+        ["Nessie Roll", "Piranha"]
       ],
       "is_new": false
     },
@@ -915,7 +1025,13 @@
         ["Piranhaconda", "Shark"],
         ["Mermaid", "Sharknado 2: The Second One"],
         ["Mermaid", "Whale Sharknado"],
-        ["Mermaid", "Sharknado 3: Oh Hell No!"]
+        ["Mermaid", "Sharknado 3: Oh Hell No!"],
+        ["Fishing Nessie", "Shark"],
+        ["Mermaid", "Sharknado 4: The 4th Awakens"],
+        ["Mermaid", "Sharknado 5: Global Swarming"],
+        ["Mermaid", "Sharknado 6: The Last One"],
+        ["Carcharodon", "Mermaid"],
+        ["Mermaid", "Sharknado 7: The Last One"]
       ],
       "is_new": false
     },
@@ -985,7 +1101,23 @@
         ["Crocodile", "Ocean"],
         ["Ocean", "Vampire Shark"],
         ["Amphitrus", "Ocean"],
-        ["Amphitrus", "Fish"]
+        ["Amphitrus", "Fish"],
+        ["Ocean", "Tux"],
+        ["Ocean", "Sea Sick"],
+        ["Ocean", "Tuxedo"],
+        ["Emperor", "Ocean"],
+        ["Emperor", "Fish"],
+        ["Crocodile", "Sea"],
+        ["Amphitrus", "Sea"],
+        ["Sea", "Tuxedo"],
+        ["Emperor", "Sea"],
+        ["Amphitrus", "Fishing"],
+        ["Amphitrus", "Shark"],
+        ["Emperor", "Shark"],
+        ["Mermaid", "Trident"],
+        ["Emperor", "Mermaid"],
+        ["Neptune", "Piranha"],
+        ["Piranha", "Trident"]
       ],
       "is_new": false
     },
@@ -1045,7 +1177,11 @@
         ["Nessie", "Whale Shark"],
         ["Piranha Shark", "Whale"],
         ["Loch Ness Monster", "Piranha Shark"],
-        ["Loch Ness Monster", "Whale Shark"]
+        ["Loch Ness Monster", "Whale Shark"],
+        ["Fossil", "Shark"],
+        ["Carcharodon", "Shark"],
+        ["Crocodile", "Shark"],
+        ["Carcharodon", "Piranha"]
       ],
       "is_new": false
     },
@@ -1125,7 +1261,22 @@
         ["Shark", "Tattoo"],
         ["Mermaid", "Swark"],
         ["Jack Sparrow", "Mermaid"],
-        ["Mermaid", "Tattoo"]
+        ["Mermaid", "Tattoo"],
+        ["Ocean", "Seasick"],
+        ["Sea", "Seasick"],
+        ["Sea Sick", "Shark"],
+        ["Piranha", "Prince"],
+        ["King", "Piranha"],
+        ["Piranha", "Terror"],
+        ["Jack Sparrow", "Piranha"],
+        ["Piranha", "Sinking Ship"],
+        ["Piranha", "Tattoo"],
+        ["Piranha", "Tide"],
+        ["Piranha", "Sick"],
+        ["Piranha", "Soggy"],
+        ["Piranha", "Survivor"],
+        ["Piranha", "Sinking"],
+        ["Piranha", "Squark"]
       ],
       "is_new": false
     },
@@ -1174,7 +1325,11 @@
       "is_new": false
     },
     "Piranha Plant": {
-      "combinations": [["Piranha", "Piranha"]],
+      "combinations": [
+        ["Piranha", "Piranha"],
+        ["Piranha", "Squito"],
+        ["Piranha", "Skeeter"]
+      ],
       "is_new": false
     },
     "Leviathan": {
@@ -1348,7 +1503,16 @@
         ["Mermaid", "Odette"],
         ["Cygnus", "Mermaid"],
         ["Swanmaid", "Water"],
-        ["Lake", "Swanmaid"]
+        ["Lake", "Swanmaid"],
+        ["Fishbowl", "Swan Shark"],
+        ["Fishbowl", "Swanmaid"],
+        ["Fishing", "Swan Shark"],
+        ["Fishing", "Swanmaid"],
+        ["Shark", "Swan Shark"],
+        ["Odette", "Piranha"],
+        ["Cygnus", "Piranha"],
+        ["Piranha", "Swanado"],
+        ["Piranha", "Swan Princess"]
       ],
       "is_new": false
     },
@@ -1377,7 +1541,8 @@
         ["Lake", "Octopus"],
         ["Ocean", "Octopus"],
         ["Octopus", "Sea"],
-        ["Octopus", "Shark"]
+        ["Octopus", "Shark"],
+        ["Octopus", "Piranha"]
       ],
       "is_new": false
     },
@@ -1450,7 +1615,13 @@
       ],
       "is_new": false
     },
-    "Triton": { "combinations": [["Poseidon", "Whale"]], "is_new": false },
+    "Triton": {
+      "combinations": [
+        ["Poseidon", "Whale"],
+        ["Amphitrus", "Mermaid"]
+      ],
+      "is_new": false
+    },
     "Moby Dick": {
       "combinations": [
         ["Pirate", "Whale"],
@@ -1523,7 +1694,12 @@
         ["Squark", "Water"],
         ["Ocean", "Skeeter"],
         ["Ocean", "Squark"],
-        ["Fish", "Squark"]
+        ["Fish", "Squark"],
+        ["Sea", "Squark"],
+        ["Fishing", "Squark"],
+        ["Mermaid", "Squito"],
+        ["Mermaid", "Squark"],
+        ["Calamari", "Piranha"]
       ],
       "is_new": false
     },
@@ -1531,7 +1707,9 @@
       "combinations": [
         ["Pirate Ship", "Water"],
         ["Fish", "Iceberg"],
-        ["Sinking", "Water"]
+        ["Sinking", "Water"],
+        ["Sea", "Sinking"],
+        ["Shark", "Sinking"]
       ],
       "is_new": false
     },
@@ -1554,7 +1732,8 @@
         ["Ocean", "Swan"],
         ["Sea", "Swan"],
         ["Fisherman", "Swan"],
-        ["Leda", "Whale"]
+        ["Leda", "Whale"],
+        ["Sea", "Swanmaid"]
       ],
       "is_new": false
     },
@@ -1642,7 +1821,18 @@
         ["Mermaid", "Soup"],
         ["Fish", "Soggy"],
         ["Fish", "Sinking"],
-        ["Dinner", "Fish"]
+        ["Dinner", "Fish"],
+        ["Seafood", "Water"],
+        ["Ocean", "Seafood"],
+        ["Fish", "Oil"],
+        ["Fish", "Seafood"],
+        ["Fish", "Shellfish"],
+        ["Sea", "Seafood"],
+        ["Fishbowl", "Oil"],
+        ["Fishing", "Seafood"],
+        ["Seafood", "Shark"],
+        ["Mermaid", "Seafood"],
+        ["Chef", "Piranha"]
       ],
       "is_new": false
     },
@@ -1658,7 +1848,8 @@
         ["Fishbowl", "Swan"],
         ["Aquarium", "Swan"],
         ["Swan Princess", "Water"],
-        ["Sea", "Swan Princess"]
+        ["Sea", "Swan Princess"],
+        ["Ballet", "Piranha"]
       ],
       "is_new": false
     },
@@ -1670,7 +1861,8 @@
         ["Aquaman", "Lake"],
         ["Aquaman", "Fish"],
         ["Fishbowl", "Prince"],
-        ["Fishbowl", "King"]
+        ["Fishbowl", "King"],
+        ["Fishbowl", "Survivor"]
       ],
       "is_new": false
     },
@@ -1694,14 +1886,19 @@
         ["Mermaid", "Snail"],
         ["Conch", "Water"],
         ["Conch", "Lake"],
-        ["Conch", "Ocean"]
+        ["Conch", "Ocean"],
+        ["Conch", "Sea"],
+        ["Conch", "Fishbowl"],
+        ["Conch", "Fishing"],
+        ["Conch", "Mermaid"]
       ],
       "is_new": false
     },
     "Wet": {
       "combinations": [
         ["Kiss", "Water"],
-        ["Soggy", "Water"]
+        ["Soggy", "Water"],
+        ["Shark", "Soggy"]
       ],
       "is_new": false
     },
@@ -1768,7 +1965,10 @@
         ["Ariel", "Kiss"],
         ["Fisherman", "Kiss"],
         ["Prince", "Shark"],
-        ["Frog", "Mermaid"]
+        ["Frog", "Mermaid"],
+        ["Mermaid", "Tux"],
+        ["Mermaid", "Tuxedo"],
+        ["Frog", "Piranha"]
       ],
       "is_new": false
     },
@@ -1784,7 +1984,9 @@
         ["Shore", "Water"],
         ["Lake", "Shore"],
         ["Ocean", "Shore"],
-        ["Sea", "Shore"]
+        ["Sea", "Shore"],
+        ["Shark", "Shore"],
+        ["Mermaid", "Shore"]
       ],
       "is_new": false
     },
@@ -1802,7 +2004,8 @@
         ["Ammonite", "Fish"],
         ["Ammonite", "Sea"],
         ["Fossil", "Ocean"],
-        ["Fossil", "Sea"]
+        ["Fossil", "Sea"],
+        ["Fossil", "Mermaid"]
       ],
       "is_new": false
     },
@@ -1842,7 +2045,10 @@
         ["Mermaid", "Sinking Ship"],
         ["Mermaid", "Surfing"],
         ["Mermaid", "Swamp"],
-        ["Mermaid", "Tide"]
+        ["Mermaid", "Tide"],
+        ["Mermaid", "Survivor"],
+        ["Mermaid", "Swanmaid"],
+        ["Medicine", "Mermaid"]
       ],
       "is_new": false
     },
@@ -1866,11 +2072,19 @@
     "Jonah And The Piranha": {
       "combinations": [
         ["Jonah and the Whale", "Piranha"],
-        ["Jonah And The Whale", "Piranha"]
+        ["Jonah And The Whale", "Piranha"],
+        ["Jonah And The Shark", "Piranha"],
+        ["Jonah And The Piranha", "Piranha"]
       ],
       "is_new": false
     },
-    "Love Bite": { "combinations": [["Kiss", "Piranha"]], "is_new": false },
+    "Love Bite": {
+      "combinations": [
+        ["Kiss", "Piranha"],
+        ["Cupid", "Piranha"]
+      ],
+      "is_new": false
+    },
     "Jonah And The Loch Ness Monster": {
       "combinations": [
         ["Jonah and the Whale", "Nessie"],
@@ -1884,7 +2098,10 @@
       "combinations": [
         ["Aquarium", "Movie"],
         ["Finding Dory", "Water"],
-        ["Finding Dory", "Shark"]
+        ["Finding Dory", "Shark"],
+        ["Finding Nemo", "Piranha"],
+        ["Finding Dory", "Piranha"],
+        ["Clownfish", "Piranha"]
       ],
       "is_new": false
     },
@@ -1939,7 +2156,10 @@
       "is_new": false
     },
     "Piranhaconda": {
-      "combinations": [["Pirates", "Sharknado"]],
+      "combinations": [
+        ["Pirates", "Sharknado"],
+        ["Piranha", "Piranhaconda"]
+      ],
       "is_new": false
     },
     "Little Mermaid": { "combinations": [["Ariel", "Movie"]], "is_new": false },
@@ -1967,7 +2187,10 @@
         ["Dracula", "Shark"],
         ["Blood", "Mermaid"],
         ["Love Bite", "Mermaid"],
-        ["Dracula", "Mermaid"]
+        ["Dracula", "Mermaid"],
+        ["Fishing", "Vampire Shark"],
+        ["Shark", "Vampire Shark"],
+        ["Dracula", "Piranha"]
       ],
       "is_new": false
     },
@@ -1993,7 +2216,8 @@
     "Tattoo": {
       "combinations": [
         ["Ink", "Water"],
-        ["Fishbowl", "Ink"]
+        ["Fishbowl", "Ink"],
+        ["Ink", "Piranha"]
       ],
       "is_new": false
     },
@@ -2037,7 +2261,8 @@
         ["Fish", "Marsh"],
         ["Sea", "Tadpole"],
         ["Fishbowl", "Tadpole"],
-        ["Fishing", "Tadpole"]
+        ["Fishing", "Tadpole"],
+        ["Piranha", "Tadpole"]
       ],
       "is_new": false
     },
@@ -2062,7 +2287,9 @@
         ["Malaria", "Sea"],
         ["Fishing", "Malaria"],
         ["Skeeter", "Water"],
-        ["Lake", "Skeeter"]
+        ["Lake", "Skeeter"],
+        ["Malaria", "Mermaid"],
+        ["Mosquito", "Piranha"]
       ],
       "is_new": false
     },
@@ -2085,7 +2312,8 @@
         ["Fishbowl", "Sharknado 2: The Second One"],
         ["Fishing", "Sharknado 2: The Second One"],
         ["Shark", "Sharknado 2: The Second One"],
-        ["Shark", "Sharknado 3: Oh Hell No!"]
+        ["Shark", "Sharknado 3: Oh Hell No!"],
+        ["Piranha", "Sharknado 2: The Second One"]
       ],
       "is_new": false
     },
@@ -2101,14 +2329,17 @@
         ["Fishbowl", "Marsh"],
         ["Marsh", "Shark"],
         ["Lake", "Sick"],
-        ["Lake", "Soggy"]
+        ["Lake", "Soggy"],
+        ["Marsh", "Mermaid"],
+        ["Marsh", "Piranha"]
       ],
       "is_new": false
     },
     "Neptune": {
       "combinations": [
         ["King", "Lake"],
-        ["King", "Ocean"]
+        ["King", "Ocean"],
+        ["Mermaid", "Pearl"]
       ],
       "is_new": false
     },
@@ -2123,7 +2354,10 @@
         ["Fishing", "Vampire"],
         ["Shark", "Vampire"],
         ["Mermaid", "Vampire"],
-        ["Lake", "Vampire Shark"]
+        ["Lake", "Vampire Shark"],
+        ["Sea", "Vampire Shark"],
+        ["Piranha", "Vampire"],
+        ["Piranha", "Vampire Fish"]
       ],
       "is_new": false
     },
@@ -2134,7 +2368,9 @@
         ["Sea", "Sinking Ship"],
         ["Iceberg", "Shark"],
         ["Lake", "Sinking"],
-        ["Ocean", "Sinking"]
+        ["Ocean", "Sinking"],
+        ["Emperor", "Water"],
+        ["Fishbowl", "Sinking"]
       ],
       "is_new": false
     },
@@ -2160,7 +2396,12 @@
         ["Fishing", "Tortoise"],
         ["Shark", "Shell"],
         ["Shark", "Turtle"],
-        ["Shark", "Tortoise"]
+        ["Shark", "Tortoise"],
+        ["Mermaid", "Tortoise"],
+        ["Piranha", "Shell"],
+        ["Piranha", "Snail"],
+        ["Piranha", "Turtle"],
+        ["Piranha", "Tortoise"]
       ],
       "is_new": false
     },
@@ -2170,7 +2411,9 @@
         ["Aquarius", "Lake"],
         ["Aquarius", "Fish"],
         ["Aquarius", "Fishing"],
-        ["Aquarius", "Shark"]
+        ["Aquarius", "Shark"],
+        ["Aquarius", "Mermaid"],
+        ["Aquarius", "Piranha"]
       ],
       "is_new": false
     },
@@ -2189,7 +2432,8 @@
         ["Ocean", "Puddle"],
         ["Fish", "Pond"],
         ["Fishbowl", "Puddle"],
-        ["Fishbowl", "Swamp"]
+        ["Fishbowl", "Swamp"],
+        ["Piranha", "Puddle"]
       ],
       "is_new": false
     },
@@ -2206,7 +2450,8 @@
         ["Mosquito", "Water"],
         ["Lake", "Mosquito"],
         ["Malaria", "Shark"],
-        ["Mermaid", "Mosquito"]
+        ["Mermaid", "Mosquito"],
+        ["Malaria", "Piranha"]
       ],
       "is_new": false
     },
@@ -2230,7 +2475,12 @@
         ["Fish", "Titanic"],
         ["Sea", "Titanic"],
         ["Iceberg", "Sea"],
-        ["Fishing", "Titanic"]
+        ["Fishing", "Titanic"],
+        ["Ice", "Water"],
+        ["Ice", "Lake"],
+        ["Ice", "Ocean"],
+        ["Ice", "Sea"],
+        ["Ice", "Shark"]
       ],
       "is_new": false
     },
@@ -2240,7 +2490,8 @@
         ["Lake", "Sharknado 3: Oh Hell No!"],
         ["Ocean", "Sharknado 3: Oh Hell No!"],
         ["Fishbowl", "Sharknado 3: Oh Hell No!"],
-        ["Shark", "Sharknado 4: The 4th Awakens"]
+        ["Shark", "Sharknado 4: The 4th Awakens"],
+        ["Piranha", "Sharknado 3: Oh Hell No!"]
       ],
       "is_new": false
     },
@@ -2257,7 +2508,8 @@
         ["Ocean", "Sharknado 4: The 4th Awakens"],
         ["Sea", "Sharknado 4: The 4th Awakens"],
         ["Fishbowl", "Sharknado 4: The 4th Awakens"],
-        ["Fishing", "Sharknado 4: The 4th Awakens"]
+        ["Fishing", "Sharknado 4: The 4th Awakens"],
+        ["Piranha", "Sharknado 4: The 4th Awakens"]
       ],
       "is_new": false
     },
@@ -2266,7 +2518,8 @@
       "combinations": [
         ["Dracula", "Fish"],
         ["Dracula", "Fishbowl"],
-        ["Fish", "Vampire Shark"]
+        ["Fish", "Vampire Shark"],
+        ["Fishbowl", "Vampire Shark"]
       ],
       "is_new": false
     },
@@ -2281,13 +2534,28 @@
       ],
       "is_new": false
     },
-    "Sick": { "combinations": [["Fish", "Malaria"]], "is_new": false },
+    "Sick": {
+      "combinations": [
+        ["Fish", "Malaria"],
+        ["Lake", "Sea Sick"],
+        ["Lake", "Seasick"],
+        ["Fish", "Sea Sick"],
+        ["Fish", "Seasick"],
+        ["Sea", "Sea Sick"],
+        ["Mermaid", "Sick"],
+        ["Mermaid", "Sea Sick"],
+        ["Mermaid", "Seasick"]
+      ],
+      "is_new": false
+    },
     "Shore": { "combinations": [["Beach", "Sea"]], "is_new": false },
     "Skeeter": {
       "combinations": [
         ["Mosquito", "Sea"],
         ["Fish", "Skeeter"],
-        ["Sea", "Skeeter"]
+        ["Sea", "Skeeter"],
+        ["Shark", "Skeeter"],
+        ["Mermaid", "Skeeter"]
       ],
       "is_new": false
     },
@@ -2302,14 +2570,24 @@
       "combinations": [
         ["Cygnus", "Fishbowl"],
         ["Baby", "Fishbowl"],
-        ["Cupid", "Fishbowl"]
+        ["Cupid", "Fishbowl"],
+        ["Dinner", "Fishbowl"],
+        ["Amphitrus", "Fishbowl"],
+        ["Fishbowl", "Tux"],
+        ["Fishbowl", "Tuxedo"],
+        ["Emperor", "Fishbowl"]
       ],
       "is_new": false
     },
     "Penguin": {
       "combinations": [
         ["Fishbowl", "Iceberg"],
-        ["Fish", "Penguin"]
+        ["Fish", "Penguin"],
+        ["Sea", "Tux"],
+        ["Fishbowl", "Penguin"],
+        ["Fishbowl", "Ice"],
+        ["Fishing", "Penguin"],
+        ["Penguin", "Shark"]
       ],
       "is_new": false
     },
@@ -2317,7 +2595,22 @@
       "combinations": [["Fishbowl", "Sharknado 5: Global Swarming"]],
       "is_new": false
     },
-    "Pearl": { "combinations": [["Fishing", "Shell"]], "is_new": false },
+    "Pearl": {
+      "combinations": [
+        ["Fishing", "Shell"],
+        ["Oyster", "Water"],
+        ["Lake", "Oyster"],
+        ["Ocean", "Oyster"],
+        ["Ocean", "Shellfish"],
+        ["Fish", "Oyster"],
+        ["Oyster", "Sea"],
+        ["Fishbowl", "Oyster"],
+        ["Fishing", "Oyster"],
+        ["Oyster", "Shark"],
+        ["Mermaid", "Oyster"]
+      ],
+      "is_new": false
+    },
     "Fishing Pole": {
       "combinations": [
         ["Ballet", "Fishing"],
@@ -2344,7 +2637,8 @@
       "combinations": [
         ["Shark", "Swan Princess"],
         ["Lake", "Swan Shark"],
-        ["Fish", "Swan Shark"]
+        ["Fish", "Swan Shark"],
+        ["Sea", "Swan Shark"]
       ],
       "is_new": false
     },
@@ -2359,14 +2653,35 @@
         ["Alligator", "Water"],
         ["Alligator", "Lake"],
         ["Alligator", "Ocean"],
-        ["Alligator", "Fish"]
+        ["Alligator", "Fish"],
+        ["Fish", "Nile"],
+        ["Alligator", "Sea"],
+        ["Alligator", "Fishing"],
+        ["Alligator", "Shark"],
+        ["Nile", "Shark"],
+        ["Alligator", "Mermaid"],
+        ["Piranha", "Swamp"],
+        ["Alligator", "Piranha"],
+        ["Crocodile", "Piranha"]
       ],
       "is_new": false
     },
     "Shark Fin Soup": { "combinations": [["Shark", "Soup"]], "is_new": false },
     "Moshark": { "combinations": [["Mosquito", "Shark"]], "is_new": false },
-    "Sinking": { "combinations": [["Shark", "Titanic"]], "is_new": false },
-    "Dinner": { "combinations": [["Dory", "Shark"]], "is_new": false },
+    "Sinking": {
+      "combinations": [
+        ["Shark", "Titanic"],
+        ["Piranha", "Titanic"]
+      ],
+      "is_new": false
+    },
+    "Dinner": {
+      "combinations": [
+        ["Dory", "Shark"],
+        ["Dinner", "Shark"]
+      ],
+      "is_new": false
+    },
     "Squark": {
       "combinations": [
         ["Shark", "Squito"],
@@ -2384,12 +2699,22 @@
     "Conch": { "combinations": [["Mermaid", "Shell"]], "is_new": false },
     "Amphitrus": { "combinations": [["Ammonite", "Mermaid"]], "is_new": false },
     "Piranha 3d": {
-      "combinations": [["Mermaid", "Piranha 3D"]],
+      "combinations": [
+        ["Mermaid", "Piranha 3D"],
+        ["Mermaid", "Piranha 3d"]
+      ],
       "is_new": false
     },
     "Swanmaid": { "combinations": [["Mermaid", "Swanado"]], "is_new": false },
     "Sharknado 7: The Last One": {
-      "combinations": [["Sharknado 6: The Last One", "Water"]],
+      "combinations": [
+        ["Sharknado 6: The Last One", "Water"],
+        ["Fishbowl", "Sharknado 6: The Last One"],
+        ["Fishing", "Sharknado 6: The Last One"],
+        ["Shark", "Sharknado 6: The Last One"],
+        ["Shark", "Sharknado 7: The Last One"],
+        ["Piranha", "Sharknado 6: The Last One"]
+      ],
       "is_new": false
     },
     "Medicine": { "combinations": [["Sick", "Water"]], "is_new": false },
@@ -2400,17 +2725,191 @@
       ],
       "is_new": false
     },
-    "Ice": { "combinations": [["Penguin", "Water"]], "is_new": false },
-    "Oyster": { "combinations": [["Pearl", "Water"]], "is_new": false },
+    "Ice": {
+      "combinations": [
+        ["Penguin", "Water"],
+        ["Tux", "Water"],
+        ["Tuxedo", "Water"]
+      ],
+      "is_new": false
+    },
+    "Oyster": {
+      "combinations": [
+        ["Pearl", "Water"],
+        ["Lake", "Shellfish"],
+        ["Sea", "Shellfish"],
+        ["Fishbowl", "Pearl"],
+        ["Fishing", "Pearl"]
+      ],
+      "is_new": false
+    },
     "Tux": { "combinations": [["Lake", "Penguin"]], "is_new": false },
     "Nile": { "combinations": [["Crocodile", "Lake"]], "is_new": false },
     "Sea Sick": { "combinations": [["Ocean", "Sick"]], "is_new": false },
     "Tuxedo": { "combinations": [["Ocean", "Penguin"]], "is_new": false },
-    "Sponge": { "combinations": [["Ocean", "Soggy"]], "is_new": false },
+    "Sponge": {
+      "combinations": [
+        ["Ocean", "Soggy"],
+        ["Sponge", "Water"]
+      ],
+      "is_new": false
+    },
     "Seafood": { "combinations": [["Dinner", "Ocean"]], "is_new": false },
     "Shellfish": { "combinations": [["Conch", "Fish"]], "is_new": false },
     "Seasick": { "combinations": [["Sea", "Sick"]], "is_new": false },
-    "Emperor": { "combinations": [["Penguin", "Sea"]], "is_new": false }
+    "Emperor": { "combinations": [["Penguin", "Sea"]], "is_new": false },
+    "Sharknado 8: The Last One": {
+      "combinations": [
+        ["Sharknado 7: The Last One", "Water"],
+        ["Sea", "Sharknado 7: The Last One"]
+      ],
+      "is_new": false
+    },
+    "Potion": { "combinations": [["Medicine", "Water"]], "is_new": false },
+    "Emulsion": { "combinations": [["Oil", "Water"]], "is_new": false },
+    "Egypt": {
+      "combinations": [
+        ["Nile", "Water"],
+        ["Lake", "Nile"],
+        ["Nile", "Ocean"],
+        ["Nile", "Sea"],
+        ["Fishing", "Nile"]
+      ],
+      "is_new": false
+    },
+    "Vomit": {
+      "combinations": [
+        ["Sea Sick", "Water"],
+        ["Seasick", "Water"]
+      ],
+      "is_new": false
+    },
+    "Clam": {
+      "combinations": [
+        ["Shellfish", "Water"],
+        ["Mermaid", "Shellfish"]
+      ],
+      "is_new": false
+    },
+    "Sharknado 8: The Revenge": {
+      "combinations": [
+        ["Lake", "Sharknado 7: The Last One"],
+        ["Ocean", "Sharknado 7: The Last One"],
+        ["Fish", "Sharknado 7: The Last One"],
+        ["Fishbowl", "Sharknado 7: The Last One"],
+        ["Fishing", "Sharknado 7: The Last One"]
+      ],
+      "is_new": false
+    },
+    "Cure": {
+      "combinations": [
+        ["Lake", "Medicine"],
+        ["Fish", "Medicine"]
+      ],
+      "is_new": false
+    },
+    "Gasoline": { "combinations": [["Lake", "Oil"]], "is_new": false },
+    "Wedding": { "combinations": [["Lake", "Tux"]], "is_new": false },
+    "Groom": {
+      "combinations": [
+        ["Lake", "Tuxedo"],
+        ["Fish", "Tux"],
+        ["Fishing", "Tux"]
+      ],
+      "is_new": false
+    },
+    "SpongeBob": {
+      "combinations": [
+        ["Lake", "Sponge"],
+        ["Fish", "Sponge"],
+        ["Fishing", "Sponge"],
+        ["Shark", "Sponge"],
+        ["Mermaid", "Sponge"]
+      ],
+      "is_new": false
+    },
+    "Crab": {
+      "combinations": [
+        ["Lake", "Seafood"],
+        ["Fishing", "Shellfish"]
+      ],
+      "is_new": false
+    },
+    "Seaweed": { "combinations": [["Medicine", "Ocean"]], "is_new": false },
+    "Slick": { "combinations": [["Ocean", "Oil"]], "is_new": false },
+    "Spongebob": {
+      "combinations": [
+        ["Ocean", "Sponge"],
+        ["Sea", "Sponge"]
+      ],
+      "is_new": false
+    },
+    "Fishstick": {
+      "combinations": [
+        ["Fish", "Ice"],
+        ["Fishing", "Ice"]
+      ],
+      "is_new": false
+    },
+    "Waiter": { "combinations": [["Fish", "Tuxedo"]], "is_new": false },
+    "Sailor": { "combinations": [["Sea", "Soggy"]], "is_new": false },
+    "Castaway": { "combinations": [["Sea", "Survivor"]], "is_new": false },
+    "Oil Spill": { "combinations": [["Oil", "Sea"]], "is_new": false },
+    "Pyramid": { "combinations": [["Fishbowl", "Nile"]], "is_new": false },
+    "Gilligan": { "combinations": [["Fishing", "Survivor"]], "is_new": false },
+    "Fish Oil": { "combinations": [["Fishing", "Medicine"]], "is_new": false },
+    "Sardine": { "combinations": [["Fishing", "Oil"]], "is_new": false },
+    "Necklace": { "combinations": [["Pearl", "Shark"]], "is_new": false },
+    "Shark Soup": { "combinations": [["Fish Soup", "Shark"]], "is_new": false },
+    "Vaccine": { "combinations": [["Medicine", "Shark"]], "is_new": false },
+    "Shark Tank": { "combinations": [["Oil", "Shark"]], "is_new": false },
+    "James Bond": {
+      "combinations": [
+        ["Shark", "Tux"],
+        ["Shark", "Tuxedo"]
+      ],
+      "is_new": false
+    },
+    "Sick Shark": { "combinations": [["Seasick", "Shark"]], "is_new": false },
+    "Ice Cream": {
+      "combinations": [
+        ["Iceberg", "Mermaid"],
+        ["Ice", "Mermaid"]
+      ],
+      "is_new": false
+    },
+    "Pengwoman": { "combinations": [["Mermaid", "Penguin"]], "is_new": false },
+    "Drowning": { "combinations": [["Mermaid", "Sinking"]], "is_new": false },
+    "Cleopatra": { "combinations": [["Mermaid", "Nile"]], "is_new": false },
+    "Piranha 3dd": {
+      "combinations": [["Piranha", "Piranha 3D"]],
+      "is_new": false
+    },
+    "Captain Hook": {
+      "combinations": [["Captain Ahab", "Piranha"]],
+      "is_new": false
+    },
+    "Ice Piranha": {
+      "combinations": [["Iceberg", "Piranha"]],
+      "is_new": false
+    },
+    "Sharknado 6: The Final Sharknado": {
+      "combinations": [["Piranha", "Sharknado 5: Global Swarming"]],
+      "is_new": false
+    },
+    "Dinosaur": { "combinations": [["Fossil", "Piranha"]], "is_new": false },
+    "Pearl Necklace": {
+      "combinations": [["Pearl", "Piranha"]],
+      "is_new": false
+    },
+    "Piranha Soup": {
+      "combinations": [["Fish Soup", "Piranha"]],
+      "is_new": false
+    },
+    "Piranha Swan": {
+      "combinations": [["Piranha", "Swan Shark"]],
+      "is_new": false
+    }
   },
   "invalid_combinations": [
     ["Sharktopus vs. Loch Ness Monster", "Water"],
@@ -2457,6 +2956,46 @@
     ["Fish", "Jonah And The Loch Ness Monster"],
     ["Fish", "Sharknado 6: The Last Sharknado"],
     ["Sea", "Sharktopus vs. Loch Ness Monster"],
-    ["Jonah And The Loch Ness Monster", "Sea"]
+    ["Jonah And The Loch Ness Monster", "Sea"],
+    ["Sharktopus vs. Loch Ness Monster", "Water"],
+    ["Jonah And The Loch Ness Monster", "Water"],
+    ["Sharknado 6: The Last Sharknado", "Water"],
+    ["Lake", "Sharktopus vs. Loch Ness Monster"],
+    ["Jonah And The Loch Ness Monster", "Lake"],
+    ["Lake", "Sharknado 6: The Last Sharknado"],
+    ["Ocean", "Sharktopus vs. Loch Ness Monster"],
+    ["Jonah And The Loch Ness Monster", "Ocean"],
+    ["Ocean", "Sharknado 6: The Last Sharknado"],
+    ["Fish", "Sharktopus vs. Loch Ness Monster"],
+    ["Fish", "Jonah And The Loch Ness Monster"],
+    ["Fish", "Sharknado 6: The Last Sharknado"],
+    ["Sea", "Sharktopus vs. Loch Ness Monster"],
+    ["Jonah And The Loch Ness Monster", "Sea"],
+    ["Sea", "Sharknado 6: The Last Sharknado"],
+    ["Fishbowl", "Sharktopus vs. Loch Ness Monster"],
+    ["Fishbowl", "Jonah And The Loch Ness Monster"],
+    ["Fishbowl", "Sharknado 6: The Last Sharknado"],
+    ["Fishing", "Sharktopus vs. Loch Ness Monster"],
+    ["Fishing", "Jonah And The Loch Ness Monster"],
+    ["Fishing", "Terror"],
+    ["Fishing", "Sharknado 6: The Last Sharknado"],
+    ["Shark", "Sharktopus vs. Loch Ness Monster"],
+    ["Ammonite", "Shark"],
+    ["Jonah And The Loch Ness Monster", "Shark"],
+    ["Shark", "Terror"],
+    ["Shark", "Surfing"],
+    ["Sand", "Shark"],
+    ["Shark", "Sharknado 6: The Last Sharknado"],
+    ["Mermaid", "Sharktopus vs. Loch Ness Monster"],
+    ["Jonah And The Loch Ness Monster", "Mermaid"],
+    ["Mermaid", "Sharknado 6: The Last Sharknado"],
+    ["Mermaid", "Soggy"],
+    ["Piranha", "Sharktopus vs. Loch Ness Monster"],
+    ["Piranha", "Sushi"],
+    ["Ammonite", "Piranha"],
+    ["Jonah And The Loch Ness Monster", "Piranha"],
+    ["Piranha", "Soup"],
+    ["Penguin", "Piranha"],
+    ["Piranha", "Sharknado 6: The Last Sharknado"]
   ]
 }
