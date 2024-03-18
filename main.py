@@ -1,4 +1,5 @@
 import json
+import random
 import time
 
 from tqdm import tqdm
@@ -113,6 +114,7 @@ def already_computed(first: str, second: str) -> bool:
 
 if __name__ == "__main__":
     items_list = list(items.keys())
+    random.shuffle(items_list)
     for first in items_list:
         for second in items_list:
             if requests_sent >= 350:
