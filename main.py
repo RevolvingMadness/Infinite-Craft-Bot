@@ -1,4 +1,5 @@
 import json
+import time
 from infinite_craft import Result, craft
 from rich import print
 from atexit import register
@@ -31,7 +32,8 @@ def add_item(combination_result: Result) -> None:
     global new_items, new_discoveries, invalid_combinations
 
     if combination_result == None:
-        exit(-1)
+        print("[red]Rate limited, waiting 1 hour")
+        time.sleep(3620)
 
     combination = combination_result.combination
 
@@ -104,8 +106,9 @@ if __name__ == "__main__":
     for first in items_list:
         for second in items_list:
             if requests_sent >= 350:
-                print("[red]You will get rate limited soon. You should wait a minute.")
-                exit(-1)
+                print("[red]Sleeping, gonna be rate limited")
+                time.sleep(90)
+                requests_sent = 0
 
             if already_computed(first, second):
                 continue
