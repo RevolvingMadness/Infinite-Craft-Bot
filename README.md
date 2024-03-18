@@ -1,2 +1,3 @@
 # Infinite-Craft-Bot
- A bot for infinite craft
+
+A bot for infinite craft
