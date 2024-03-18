@@ -9,6 +9,8 @@ headers = {
     "Accept": "*/*",
     "Referer": "https://neal.fun/infinite-craft/",
     "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
     "User-Agent": generate_user_agent(),
 }
 
