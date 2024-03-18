@@ -1,5 +1,7 @@
 import json
 import time
+
+from tqdm import tqdm
 from infinite_craft import Result, craft
 from rich import print
 from atexit import register
@@ -24,6 +26,14 @@ def on_exit() -> None:
     display_info()
 
 
+def sleep_with_bar(time_in_seconds: int) -> None:
+    bar = tqdm(desc="Sleeping Progress", total=time_in_seconds)
+
+    for i in range(time_in_seconds):
+        time.sleep(1)
+        bar.update()
+
+
 def get_item_combinations(item: str) -> list[str]:
     return items[item]["combinations"]
 
@@ -33,7 +43,7 @@ def add_item(combination_result: Result) -> None:
 
     if combination_result == None:
         print("[red]Rate limited, waiting 1 hour")
-        time.sleep(3620)
+        sleep_with_bar(3620)
 
     combination = combination_result.combination
 
@@ -107,7 +117,7 @@ if __name__ == "__main__":
         for second in items_list:
             if requests_sent >= 350:
                 print("[red]Sleeping, gonna be rate limited")
-                time.sleep(90)
+                sleep_with_bar(90)
                 requests_sent = 0
 
             if already_computed(first, second):
