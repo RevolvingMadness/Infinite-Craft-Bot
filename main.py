@@ -6,6 +6,7 @@ from atexit import register
 new_items = 0
 new_discoveries = 0
 invalid_combinations = 0
+requests_sent = 0
 
 with open("computed.json", "r") as f:
     computed: dict[str, dict[str, list[str] | bool] | list[list[str]]] = json.loads(
@@ -102,7 +103,12 @@ if __name__ == "__main__":
     items_list = list(items.keys())
     for first in items_list:
         for second in items_list:
+            if requests_sent >= 350:
+                print("[red]You will get rate limited soon. You should wait a minute.")
+                exit(-1)
+
             if already_computed(first, second):
                 continue
 
+            requests_sent += 1
             add_item(craft(first, second))
